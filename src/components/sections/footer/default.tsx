@@ -1,4 +1,5 @@
-import { ModeToggle } from "../../ui/mode-toggle";
+/* eslint-disable @next/next/no-html-link-for-pages */
+
 import {
   Footer,
   FooterColumn,
@@ -82,7 +83,6 @@ export default function FooterSection() {
             <div className="flex items-center gap-4">
               <a href="/">Privacy Policy</a>
               <a href="/">Terms of Service</a>
-              <ModeToggle />
             </div>
           </FooterBottom>
         </Footer>
