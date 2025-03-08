@@ -2,7 +2,6 @@
 import React from "react";
 import { FloatingNav } from "../ui/floating-navbar";
 import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
-import { Hero } from "../Hero/Hero";
 export function Navbar() {
     const navItems = [
         {
@@ -32,6 +31,6 @@ export function Navbar() {
 }
 const DummyContent = () => {
     return (
-        <Hero />
+        <div>{ }</div>// <Hero />
     );
 };

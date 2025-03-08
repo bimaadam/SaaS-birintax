@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 export function Fitur1() {
     return (
         <>
-            <div className='overflow-auto'>
+            <div className='overflow-auto lg:mx-30'>
                 <Tabel />
             </div>
             <motion.div className="p-10 mx-auto max-w-7xl">
@@ -17,8 +17,8 @@ export function Fitur1() {
                         transition={{ duration: 0.5 }}
                         viewport={{ amount: 0.2 }}
                         whileHover={{ y: 5 }}
-                        className="md:col-span-2 bg-white rounded-lg p-8 shadow-md">
-                        <h2 className="text-3xl font-bold mb-4">Kelola Pajak Anda dengan Mudah</h2>
+                        className="md:col-span-2 bg-white rounded-lg p-5 shadow-md">
+                        <h2 className="text-3xl md:text-2xl font-bold mb-4">Kelola Pajak Anda dengan Mudah</h2>
                         <p className="text-gray-700 mb-6">
                             Dengan layanan pelaporan pajak otomatis kami, Anda dapat menghilangkan stres dan kerumitan dalam mengelola kewajiban pajak Anda. Fokus pada pengembangan bisnis Anda, sementara kami menangani semua detail pajak.
                         </p>

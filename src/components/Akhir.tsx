@@ -28,7 +28,7 @@ export function Akhir() {
             </p>
             <TypewriterEffectSmooth words={words} />
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-                <button className="w-40 h-10 rounded-xl bg-green-600 border dark:border-white border-transparent text-white text-sm hover:bg-green-700 transition duration-300">
+                <button className="w-40 h-10 rounded-xl bg-orange-600 border dark:border-white border-transparent text-white text-sm hover:bg-green-700 transition duration-300">
                     Mulai Sekarang
                 </button>
                 <button className="w-40 h-10 rounded-xl bg-white text-green-600 border border-green-600 text-sm hover:bg-green-100 transition duration-300">
