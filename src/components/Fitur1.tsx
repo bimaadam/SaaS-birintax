@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 export function Fitur1() {
     return (
         <>
-            <div className='p-20 mx-40 mb-20'>
+            <div className='overflow-auto'>
                 <Tabel />
             </div>
             <motion.div className="p-10 mx-auto max-w-7xl">

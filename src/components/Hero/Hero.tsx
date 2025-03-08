@@ -12,7 +12,7 @@ export function Hero() {
             <h1 className="text-3xl md:text-6xl lg:text-7xl font-bold text-center text-gray-900 relative z-10 font-sans">
                 BirinTax Solution for <ColourfulText text="TAX" />
             </h1>
-            <TextGenerateEffect words={PAJAK} />
+            <TextGenerateEffect className="text-center" words={PAJAK} />
             <motion.button
                 className="mt-8 relative px-8 py-3 text-lg font-semibold rounded-lg bg-gradient-to-r from-blue-500 to-indigo-500 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
                 whileHover={{ scale: 1.1 }}
