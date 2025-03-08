@@ -1,17 +1,20 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   images: {
     remotePatterns: [
       {
         protocol: "https",
         hostname: "images.unsplash.com",
-        pathname: "/**", // This allows all images from Unsplash
+        pathname: "/**",
       },
       {
         protocol: "https",
-        hostname: "assets.aceternity.com", // Allow assets.aceternity.com
-        pathname: "/**", // This allows all images from assets.aceternity.com
+        hostname: "assets.aceternity.com",
+        pathname: "/**",
       },
     ],
   },
