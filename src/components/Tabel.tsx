@@ -72,8 +72,8 @@ export function Tabel() {
             transition={{ duration: 0.5 }}
             className="overflow-hidden rounded-xl shadow-lg"
         >
-            <Table className="bg-white rounded-xl border border-gray-200">
-                <TableCaption>Daftar laporan pajak terbaru Anda.</TableCaption>
+            <Table className="bg-white rounded-2xl border-gray-300 shadow-2xl">
+                {/* <TableCaption>Daftar laporan pajak terbaru Anda.</TableCaption> */}
                 <TableHeader>
                     <TableRow>
                         <TableHead className="w-[120px]">ID Laporan</TableHead>

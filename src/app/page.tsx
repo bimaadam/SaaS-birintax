@@ -1,3 +1,4 @@
+import { Akhir } from "@/components/Akhir";
 import { Fitur1 } from "@/components/Fitur1";
 import { Fitur2 } from "@/components/Fitur2";
 import { Fitur3 } from "@/components/Fitur3";
@@ -11,6 +12,7 @@ export default function Home() {
       <Fitur2 />
       <Fitur3 />
       <Testimoni />
+      <Akhir />
     </div>
   )
 }
